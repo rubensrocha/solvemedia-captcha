@@ -93,8 +93,9 @@ Then check for captcha errors in the `Form` :
 
 ## Packages used as reference for creating this package.
 
-[anhskohbo/no-captcha] https://github.com/anhskohbo/no-captcha
-[traderinteractive/solvemedia-client-php] https://github.com/traderinteractive/solvemedia-client-php
+[anhskohbo/no-captcha]: https://github.com/anhskohbo/no-captcha
+
+[traderinteractive/solvemedia-client-php]: https://github.com/traderinteractive/solvemedia-client-php
 
 ## Contribute
 
