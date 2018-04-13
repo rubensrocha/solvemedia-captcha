@@ -1,0 +1,30 @@
+{
+    "name": "rubensrocha/solvemedia-captcha",
+    "description": "Solve Media Captcha For Laravel.",
+    "keywords": ["solvemedia-captcha", "captcha", "laravel", "solve media", "laravel5"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rubensrocha",
+            "email": "rubens.dragonforce@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rubensrocha\\SolveMediaCaptcha\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rubensrocha\\SolveMediaCaptcha\\SolveMediaCaptchaServiceProvider"
+            ],
+            "aliases": {
+                "SolveMediaCaptcha": "Rubensrocha\\SolveMediaCaptcha\\Facades\\SolveMediaCaptcha"
+            }
+        }
+    }
+}
