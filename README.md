@@ -55,7 +55,7 @@ SOLVEMEDIA_SSL=TRUE
 
 ```php
 {!! SolveMediaCaptcha::display() !!}
-
+```
 
 #### Validation
 
