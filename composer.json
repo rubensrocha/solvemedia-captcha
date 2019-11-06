@@ -1,7 +1,7 @@
 {
     "name": "rubensrocha/solvemedia-captcha",
     "description": "Solve Media Captcha For Laravel.",
-    "keywords": ["solvemedia-captcha", "captcha", "laravel", "solve media", "laravel5"],
+    "keywords": ["solvemedia-captcha", "captcha", "laravel", "solve media", "laravel5", "laravel6"],
     "license": "MIT",
     "authors": [
         {
@@ -10,7 +10,8 @@
         }
     ],
     "require": {
-        "php": ">=5.5.5"
+        "php": ">=5.5.5",
+        "illuminate/support": "^5.0|^6.0"
     },
     "autoload": {
         "psr-4": {

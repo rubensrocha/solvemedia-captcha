@@ -11,11 +11,11 @@ Tested on Laravel 5.6
 composer require rubensrocha/solvemedia-captcha
 ```
 
-## Laravel 5
+## Laravel 5 - 6
 
 ### Setup
 
-**_NOTE_** This package supports the auto-discovery feature of Laravel 5.5, So skip these `Setup` instructions if you're using Laravel 5.5.
+**_NOTE_** This package supports the auto-discovery feature of Laravel 5.5, So skip these `Setup` instructions if you're using Laravel 5.5 and above.
 
 In `app/config/app.php` add the following :
 
@@ -48,7 +48,7 @@ SOLVEMEDIA_HKEY="your_authentication_key"
 SOLVEMEDIA_SSL=TRUE
 ```
 
-(You can obtain them from [here]( https://portal.solvemedia.com )
+You can obtain them from [here]( https://portal.solvemedia.com  )
 
 #### Display CAPTCHA
 
