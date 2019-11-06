@@ -3,8 +3,6 @@ Solve Media Captcha for Laravel
 
 Package integration of SolveMedia captcha for Laravel
 
-Tested on Laravel 5.6
-
 ## Installation
 
 ```
