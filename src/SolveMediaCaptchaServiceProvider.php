@@ -3,7 +3,6 @@
 namespace Rubensrocha\SolveMediaCaptcha;
 
 use Illuminate\Support\ServiceProvider;
-use Illuminate\Support\Facades\Input;
 
 class SolveMediaCaptchaServiceProvider extends ServiceProvider
 {
@@ -24,7 +23,7 @@ class SolveMediaCaptchaServiceProvider extends ServiceProvider
         $this->bootConfig();
 
         $app['validator']->extend('solvemediacaptcha', function ($attribute, $value) use ($app) {
-            return $app['solvemediacaptcha']->checkAnswer($app['request']->getClientIp(), Input::get('adcopy_challenge'), $value);
+            return $app['solvemediacaptcha']->checkAnswer($app['request']->getClientIp(), $app['request']->input('adcopy_challenge'), $value);
         });
 
         if ($app->bound('form')) {
